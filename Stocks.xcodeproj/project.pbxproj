@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		C97264111D2C6E9400BE1437 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97264101D2C6E9400BE1437 /* main.m */; };
 		C97264141D2C6E9400BE1437 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C97264131D2C6E9400BE1437 /* AppDelegate.m */; };
-		C97264171D2C6E9400BE1437 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97264161D2C6E9400BE1437 /* ViewController.m */; };
 		C972641A1D2C6E9400BE1437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97264181D2C6E9400BE1437 /* Main.storyboard */; };
 		C972641C1D2C6E9400BE1437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C972641B1D2C6E9400BE1437 /* Assets.xcassets */; };
 		C972641F1D2C6E9400BE1437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C972641D1D2C6E9400BE1437 /* LaunchScreen.storyboard */; };
+		C97264281D2C6FCD00BE1437 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97264271D2C6FCD00BE1437 /* ContainerViewController.m */; };
+		C97264311D2C73AD00BE1437 /* StocksDisplayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97264301D2C73AD00BE1437 /* StocksDisplayTableViewController.m */; };
+		C97264341D2C750900BE1437 /* StockNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97264331D2C750900BE1437 /* StockNameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		C97264101D2C6E9400BE1437 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C97264121D2C6E9400BE1437 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C97264131D2C6E9400BE1437 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C97264151D2C6E9400BE1437 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C97264161D2C6E9400BE1437 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C97264191D2C6E9400BE1437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C972641B1D2C6E9400BE1437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C972641E1D2C6E9400BE1437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C97264201D2C6E9400BE1437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97264261D2C6FCD00BE1437 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		C97264271D2C6FCD00BE1437 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		C972642F1D2C73AD00BE1437 /* StocksDisplayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StocksDisplayTableViewController.h; sourceTree = "<group>"; };
+		C97264301D2C73AD00BE1437 /* StocksDisplayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StocksDisplayTableViewController.m; sourceTree = "<group>"; };
+		C97264321D2C750900BE1437 /* StockNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockNameViewController.h; sourceTree = "<group>"; };
+		C97264331D2C750900BE1437 /* StockNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockNameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +66,13 @@
 			children = (
 				C97264121D2C6E9400BE1437 /* AppDelegate.h */,
 				C97264131D2C6E9400BE1437 /* AppDelegate.m */,
-				C97264151D2C6E9400BE1437 /* ViewController.h */,
-				C97264161D2C6E9400BE1437 /* ViewController.m */,
 				C97264181D2C6E9400BE1437 /* Main.storyboard */,
 				C972641B1D2C6E9400BE1437 /* Assets.xcassets */,
 				C972641D1D2C6E9400BE1437 /* LaunchScreen.storyboard */,
 				C97264201D2C6E9400BE1437 /* Info.plist */,
 				C972640F1D2C6E9400BE1437 /* Supporting Files */,
+				C97264261D2C6FCD00BE1437 /* ContainerViewController.h */,
+				C97264271D2C6FCD00BE1437 /* ContainerViewController.m */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -75,6 +81,10 @@
 			isa = PBXGroup;
 			children = (
 				C97264101D2C6E9400BE1437 /* main.m */,
+				C972642F1D2C73AD00BE1437 /* StocksDisplayTableViewController.h */,
+				C97264301D2C73AD00BE1437 /* StocksDisplayTableViewController.m */,
+				C97264321D2C750900BE1437 /* StockNameViewController.h */,
+				C97264331D2C750900BE1437 /* StockNameViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97264171D2C6E9400BE1437 /* ViewController.m in Sources */,
 				C97264141D2C6E9400BE1437 /* AppDelegate.m in Sources */,
+				C97264311D2C73AD00BE1437 /* StocksDisplayTableViewController.m in Sources */,
 				C97264111D2C6E9400BE1437 /* main.m in Sources */,
+				C97264341D2C750900BE1437 /* StockNameViewController.m in Sources */,
+				C97264281D2C6FCD00BE1437 /* ContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = Stocks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.Stocks;
@@ -276,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = Stocks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.Stocks;
